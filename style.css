@@ -15,7 +15,8 @@ span{
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     float: right;
-    font-style: italic;
+    font-style: oblique;
+    color: #000;
 
 }
 header{
