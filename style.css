@@ -9,14 +9,24 @@ body {
     font-size: 16px;
 }
 section{
-    padding-top: 80px;
+    padding-top: 120px;
+}
+span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    float: right;
+    font-style: italic;
+
 }
 header{
     position: fixed;
     top:0; left: 0; right:0;
     z-index: 1000;
 }
-
+.logo{
+    font-size: 20px;
+    padding: 7.5px 10px 7.5px 0;
+}
 nav {
     background: wheat;
     padding: 0 15px;
