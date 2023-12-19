@@ -14,10 +14,11 @@ section{
 span{
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
-    float: right;
     font-style: oblique;
     color: #000;
-
+}
+.logo img {
+    float: left;
 }
 header{
     position: fixed;
@@ -26,7 +27,7 @@ header{
 }
 .logo{
     font-size: 20px;
-    padding: 7.5px 10px 7.5px 0;
+    padding: 5px 10px 5px 0;
 }
 nav {
     background: wheat;
@@ -42,7 +43,7 @@ a {
 }
 .logo {
     font-size: 20px;
-    padding: 7.5px 10px 7.5px 0;
+    padding: 5px 10px 5px 0;
 }
 .item {
     padding: 10px;
@@ -57,7 +58,7 @@ a {
 
 /* Mobile menu */
 .menu {
-    display: flex;
+    display: flex ;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
