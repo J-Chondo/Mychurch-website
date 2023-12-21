@@ -167,29 +167,41 @@ a {
     }
 
 }
-
 .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 35rem);
-    gap:1.5rem;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 2rem;
 }
-
- .box-container .box{
-    padding:2.5rem;
-    background: white;
-    border-radius: .5rem;
-    border:.1rem solid rgba(0,0,0,.2);
-    box-shadow: var(--box-shadow);
-    position: relative;
-    overflow: hidden;
+.box{
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 5px;
     text-align: center;
+    
+    
+}
+.box .circle{
+    height: 100px;
+    width: 100px;
+    border: 5px solid white;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-bottom: 30px;
+
+}
+@media (max-width: 1240px) {
+    .box-container{
+        flex-direction:column;
+        height:100%;   
+    }
+    .box .circle{
+    margin-bottom: 30px;
+    margin-left: 50px;
+    }
 }
 
-.box-container .box img{
-    height:17rem;
-    margin:1rem;
-}
-ul{
-    list-style: none;
-}
